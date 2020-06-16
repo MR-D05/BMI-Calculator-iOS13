@@ -8,7 +8,7 @@ Solidify understanding of Optionals and MVC design pattern as well as hammer out
 
 A working Body Mass Index calculator. Based on your weight and height, the app calculates your body mass.
 
-## Demo understanding of
+## Implements
 
 * Multi-screen apps with animated navigation.
 * Optional binding, optional chaining and the nil coalescing operator.
