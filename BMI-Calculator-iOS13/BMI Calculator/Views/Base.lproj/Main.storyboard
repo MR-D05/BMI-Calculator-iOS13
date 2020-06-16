@@ -106,7 +106,7 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="calculateBMI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4it-8X-fuk"/>
+                                            <action selector="calculateBMI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0n5-ti-bq9"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -131,7 +131,6 @@
                         <outlet property="weightLabel" destination="LTF-aL-8qu" id="j2N-rV-DLG"/>
                         <outlet property="weightSlider" destination="s2X-C5-Zcz" id="0mA-qj-nqL"/>
                         <segue destination="lkq-xS-Cin" kind="presentation" identifier="goToResult" id="JBN-5h-3oJ"/>
-                        <segue destination="BUO-vq-7RD" kind="presentation" id="vl7-Vt-8p9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -215,21 +214,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4fn-rV-g4l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="916" y="138"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="GH1-xs-3bO">
-            <objects>
-                <viewController id="BUO-vq-7RD" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="JZh-Q7-GMr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="Ufe-lO-Lg6"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tnJ-jx-EfH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="916" y="798"/>
         </scene>
     </scenes>
     <resources>
